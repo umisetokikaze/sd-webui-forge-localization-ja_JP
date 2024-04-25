@@ -3,16 +3,6 @@
 ## これはなに
 日本語訳用の言語ファイルです。 [AUTOMATIC1111版Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)で使用します。
 
-
-## 翻訳がおかしい/翻訳を手伝う📘
-### [Crowdin](https://crowdin.com/project/stable-diffusion-webui-localization-ja_JP/invite?h=cb87e52376d1e1f2ba920b1a8bcccebe1650449)から翻訳ができます!  
-Crowdinの使い方に関して、[sp8999](https://twitter.com/sp8999)さんがまとめてくださいました!  
-[コチラの記事](https://sp8999.com/stable-diffusion/2023/03/20/870/)からどうぞ!
-
-翻訳のソースは[stable-diffusion-webui-localization-source](https://github.com/harukaxxxx/stable-diffusion-webui-localization-source)からお借りしています  
-
-また、ご自身で翻訳を始めたいという方へ向けて[テンプレート](https://github.com/Katsuyuki-Karasawa/stable-diffusion-webui-localization-template)を公開しています!
-
 ## 2ヶ国語同時表示対応について
 以下のように2ヶ国語同時表示を可能にする[Bilingual Localization](https://github.com/journey-ad/sd-webui-bilingual-localization)拡張機能との併用を推奨します。    
 **バイリンガル対応の拡張機能を標準で組み込んでおり、有効化すればすぐに使えます!** ~~([9d2551d](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/9d2551d593a683d3bd3344cf708df85648210e1c)以降)~~  
@@ -130,15 +120,6 @@ https://github.com/Katsuyuki-Karasawa/stable-diffusion-webui-localization-ja_JP
  実際にWebUIで使用される言語ファイル
  `Merge.yaml`を手動実行し、マージする  
 
- - `/template/source/`以下
- `update_source.yaml`で[翻訳ソース](https://github.com/harukaxxxx/stable-diffusion-webui-localization-source)から取得してきたファイル  
- こちらには基本変更を加えません  
-
- - `/template/ja_JP/`  
- Crowdinなどで翻訳後に出力されるファイル  
- **もし直接翻訳のPRを出す場合はこちらになります**
-
-## Special Thanks!✨
 <a href=https://github.com/yuuki76/webui-localization-ja_JP><img src="https://github.com/yuuki76.png" alt="yuuki76" style="display: inline-block; width: 100px; height: 100px;">
 <a href=https://github.com/harukaxxxx/stable-diffusion-webui-localization-source><img src="https://github.com/harukaxxxx.png" alt="harukaxxxx" style="display: inline-block; width: 100px; height: 100px;">
 <a href=https://github.com/journey-ad/sd-webui-bilingual-localization><img src="https://github.com/journey-ad.png" alt="journey-ad" style="display: inline-block; width: 100px; height: 100px;">
