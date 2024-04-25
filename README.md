@@ -13,8 +13,6 @@
 これにより、古いバージョンでのバイリンガル拡張機能の組み込みは機能しません。  
 継続してご利用されたい方は、webui側のアップデートを行う、もしくはご自身で[Bilingual Localization](https://github.com/journey-ad/sd-webui-bilingual-localization)のインストールを行ってください。~~
 
-**Thanks [journy-ad](https://github.com/journey-ad)**
-
 # Getting Started
 ## インストール
 1. <kbd>Extensions</kbd>タブをクリックし、<kbd>Available</kbd>をクリックします。
